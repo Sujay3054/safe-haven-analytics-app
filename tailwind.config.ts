@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				suraksha: {
+				phoenix: {
 					purple: '#8B5CF6',
 					blue: '#0EA5E9',
 					orange: '#F97316',
@@ -106,7 +106,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'suraksha-gradient': 'linear-gradient(to right bottom, #E5DEFF, #F2FCE2)',
+				'phoenix-gradient': 'linear-gradient(to right bottom, #E5DEFF, #F2FCE2)',
 			}
 		}
 	},
