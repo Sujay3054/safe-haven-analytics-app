@@ -10,25 +10,25 @@ import EmergencySOS from '@/components/EmergencySOS';
 const Index = () => {
   const features = [
     {
-      icon: <BarChart3 className="h-10 w-10 text-suraksha-purple" />,
+      icon: <BarChart3 className="h-10 w-10 text-phoenix-purple" />,
       title: 'Safety Analytics',
       description: 'Visualize threats and stay informed about safety trends in your area',
       link: '/dashboard'
     },
     {
-      icon: <MapPin className="h-10 w-10 text-suraksha-blue" />,
+      icon: <MapPin className="h-10 w-10 text-phoenix-blue" />,
       title: 'Safe Route Mapping',
       description: 'Navigate through safe paths and avoid high-risk areas',
       link: '/map'
     },
     {
-      icon: <Users className="h-10 w-10 text-suraksha-pink" />,
+      icon: <Users className="h-10 w-10 text-phoenix-pink" />,
       title: 'Trusted Contacts',
       description: 'Set up emergency contacts that will be alerted in critical situations',
       link: '/contacts'
     },
     {
-      icon: <Bell className="h-10 w-10 text-suraksha-orange" />,
+      icon: <Bell className="h-10 w-10 text-phoenix-orange" />,
       title: 'Community Alerts',
       description: 'Get real-time notifications about safety incidents near you',
       link: '/alerts'
@@ -39,15 +39,15 @@ const Index = () => {
     <Layout className="flex flex-col items-center">
       {/* Hero section */}
       <section className="flex flex-col items-center text-center max-w-3xl mx-auto pt-8 pb-16">
-        <Shield className="h-16 w-16 text-suraksha-purple mb-6" />
-        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-suraksha-purple to-suraksha-blue bg-clip-text text-transparent mb-4">
-          Suraksha
+        <Shield className="h-16 w-16 text-phoenix-purple mb-6" />
+        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-phoenix-purple to-phoenix-blue bg-clip-text text-transparent mb-4">
+          phoenix
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           The analytics-driven safety companion for women in India
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button asChild size="lg" className="bg-suraksha-purple hover:bg-suraksha-purple/90">
+          <Button asChild size="lg" className="bg-phoenix-purple hover:bg-phoenix-purple/90">
             <Link to="/dashboard">
               Get Started
             </Link>
@@ -85,20 +85,20 @@ const Index = () => {
       {/* Stats section */}
       <section className="w-full py-12 bg-white/50 rounded-lg my-12">
         <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">Why Suraksha Matters</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">Why phoenix Matters</h2>
           <p className="text-muted-foreground">Empowering women through technology and community</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
-            <div className="text-4xl font-bold text-suraksha-purple mb-2">87%</div>
-            <p className="text-sm text-muted-foreground">Women feel safer using Suraksha app</p>
+            <div className="text-4xl font-bold text-phoenix-purple mb-2">87%</div>
+            <p className="text-sm text-muted-foreground">Women feel safer using phoenix app</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-suraksha-blue mb-2">24/7</div>
+            <div className="text-4xl font-bold text-phoenix-blue mb-2">24/7</div>
             <p className="text-sm text-muted-foreground">Real-time alerts and monitoring</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-suraksha-orange mb-2">10k+</div>
+            <div className="text-4xl font-bold text-phoenix-orange mb-2">10k+</div>
             <p className="text-sm text-muted-foreground">Safe journeys facilitated daily</p>
           </div>
         </div>
@@ -111,3 +111,4 @@ const Index = () => {
 };
 
 export default Index;
+
