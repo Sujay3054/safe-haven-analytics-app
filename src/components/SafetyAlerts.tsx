@@ -53,7 +53,7 @@ const safeAreas = [
   {
     id: 1,
     location: 'Select Citywalk Mall, Saket',
-    features: 'Security, CCTV, Women's Helpdesk',
+    features: 'Security, CCTV, Women\'s Helpdesk',
     verified: true,
   },
   {
