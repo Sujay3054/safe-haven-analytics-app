@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				suraksha: {
+					purple: '#8B5CF6',
+					blue: '#0EA5E9',
+					orange: '#F97316',
+					lightPurple: '#E5DEFF',
+					lightGreen: '#F2FCE2',
+					pink: '#D946EF',
 				}
 			},
 			borderRadius: {
@@ -84,11 +93,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-alert': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-alert': 'pulse-alert 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'suraksha-gradient': 'linear-gradient(to right bottom, #E5DEFF, #F2FCE2)',
 			}
 		}
 	},
