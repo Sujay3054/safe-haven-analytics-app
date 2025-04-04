@@ -13,7 +13,7 @@ const recentAlerts = [
   {
     id: 1,
     type: 'harassment',
-    location: 'Majnu Ka Tilla, Delhi',
+    location: 'Majnu Ka Tilla, tamil nadu',
     time: '2 hours ago',
     reportedBy: 'Anonymous',
     description: 'Group of men following women near the metro station.',
@@ -121,7 +121,7 @@ const SafetyAlerts = () => {
     <Card className="w-full">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
-          <AlertTriangle className="text-suraksha-orange" />
+          <AlertTriangle className="text-phoenix-orange" />
           Community Safety Alerts
         </CardTitle>
         <CardDescription>
